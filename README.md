@@ -29,6 +29,10 @@ const char* mqtt_client_name = "SuaInstancia";
 
 Neste código é usado uma fita com 24 LEDs RGB. Para alterar as cores ou as quantidades de LEDs acionados basta alterar o código RGB na função LED_ON(). Lembrando que será necessário fazer alterações de inclusão ou exclusão na função LED_OFF() caso haja alteração na quantidade de LEDs acionados.
 
-O LED foi conectado a porta I/O 12 do microcontrolador.
+Para aliementar a fita é possível utilizar as próprias saídas 5V e GND do ESP32. Caso deseje-se aumentar a quantidade de LEDs talvez seja necessário usar uma fonte externa para conseguir manter a alimentação necessária para todos os dispositivos.
+
+O sinal de controle da fita foi conectada a porta I/O 12 do microcontrolador. Altere de acordo com as portas disponíveis na sua placa.
+
+
 
 Esse é meu primeiro commit Git então tenham um pouco de paciência. Estou a disposição pelo GitHub.
